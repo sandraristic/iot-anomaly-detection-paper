@@ -1,0 +1,6 @@
+Scenario,Test rows,Malicious,Train before,Overlap removed,Train after
+Muhstik capture,20149,16630,6159,9,6150
+Hakai capture,2058,1741,6159,480,5679
+Torii capture,1231,9,6159,87,6072
+Trojan capture,2099,6,6159,172,5987
+Benign Somfy Door Lock,47,0,6159,0,6159

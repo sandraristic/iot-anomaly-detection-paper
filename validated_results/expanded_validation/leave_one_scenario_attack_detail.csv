@@ -1,0 +1,49 @@
+Held-out scenario,Model,Detailed label,Unique malicious patterns,Detected,Recall
+Mirai capture,Logistic Regression,C&C,3974,2366,0.5953699043784599
+Mirai capture,Logistic Regression,DDoS,14,12,0.8571428571428571
+Mirai capture,Logistic Regression,DDoS|PartOfAHorizontalPortScan,1,1,1.0
+Mirai capture,Logistic Regression,PartOfAHorizontalPortScan,11,10,0.9090909090909091
+Mirai capture,Linear SVM,C&C,3974,3927,0.9881731253145445
+Mirai capture,Linear SVM,DDoS,14,12,0.8571428571428571
+Mirai capture,Linear SVM,DDoS|PartOfAHorizontalPortScan,1,1,1.0
+Mirai capture,Linear SVM,PartOfAHorizontalPortScan,11,10,0.9090909090909091
+Mirai capture,Random Forest,C&C,3974,2135,0.5372420734776044
+Mirai capture,Random Forest,DDoS,14,10,0.7142857142857143
+Mirai capture,Random Forest,DDoS|PartOfAHorizontalPortScan,1,0,0.0
+Mirai capture,Random Forest,PartOfAHorizontalPortScan,11,10,0.9090909090909091
+Mirai capture,XGBoost,C&C,3974,2367,0.5956215400100654
+Mirai capture,XGBoost,DDoS,14,5,0.35714285714285715
+Mirai capture,XGBoost,DDoS|PartOfAHorizontalPortScan,1,1,1.0
+Mirai capture,XGBoost,PartOfAHorizontalPortScan,11,4,0.36363636363636365
+Muhstik capture,Logistic Regression,Attack,5962,0,0.0
+Muhstik capture,Logistic Regression,C&C,7,6,0.8571428571428571
+Muhstik capture,Logistic Regression,C&C|PartOfAHorizontalPortScan,1,1,1.0
+Muhstik capture,Logistic Regression,PartOfAHorizontalPortScan,10660,10660,1.0
+Muhstik capture,Linear SVM,Attack,5962,0,0.0
+Muhstik capture,Linear SVM,C&C,7,6,0.8571428571428571
+Muhstik capture,Linear SVM,C&C|PartOfAHorizontalPortScan,1,1,1.0
+Muhstik capture,Linear SVM,PartOfAHorizontalPortScan,10660,10660,1.0
+Muhstik capture,Random Forest,Attack,5962,0,0.0
+Muhstik capture,Random Forest,C&C,7,6,0.8571428571428571
+Muhstik capture,Random Forest,C&C|PartOfAHorizontalPortScan,1,1,1.0
+Muhstik capture,Random Forest,PartOfAHorizontalPortScan,10660,10659,0.999906191369606
+Muhstik capture,XGBoost,Attack,5962,0,0.0
+Muhstik capture,XGBoost,C&C,7,6,0.8571428571428571
+Muhstik capture,XGBoost,C&C|PartOfAHorizontalPortScan,1,1,1.0
+Muhstik capture,XGBoost,PartOfAHorizontalPortScan,10660,10660,1.0
+Hakai capture,Logistic Regression,C&C,1741,1741,1.0
+Hakai capture,Linear SVM,C&C,1741,1741,1.0
+Hakai capture,Random Forest,C&C,1741,1675,0.9620907524411257
+Hakai capture,XGBoost,C&C,1741,1741,1.0
+Torii capture,Logistic Regression,C&C-Torii,9,6,0.6666666666666666
+Torii capture,Linear SVM,C&C-Torii,9,6,0.6666666666666666
+Torii capture,Random Forest,C&C-Torii,9,5,0.5555555555555556
+Torii capture,XGBoost,C&C-Torii,9,6,0.6666666666666666
+Trojan capture,Logistic Regression,C&C-FileDownload,3,0,0.0
+Trojan capture,Logistic Regression,FileDownload,3,0,0.0
+Trojan capture,Linear SVM,C&C-FileDownload,3,0,0.0
+Trojan capture,Linear SVM,FileDownload,3,0,0.0
+Trojan capture,Random Forest,C&C-FileDownload,3,0,0.0
+Trojan capture,Random Forest,FileDownload,3,0,0.0
+Trojan capture,XGBoost,C&C-FileDownload,3,0,0.0
+Trojan capture,XGBoost,FileDownload,3,0,0.0

@@ -1,0 +1,11 @@
+Direction,Model,Error,Detailed label,Raw multiplicity,proto,service,duration,src_bytes,dst_bytes,conn_state,missed_bytes,src_pkts,src_ip_bytes,dst_pkts,dst_ip_bytes
+Torii 20-1 -> Torii 21-1,Logistic Regression,False positive,-,1,tcp,,25.039954,36.0,440.0,OTH,0,3,192,6,752
+Torii 20-1 -> Torii 21-1,Random Forest,False negative,C&C-Torii,6,tcp,,,,,S0,0,1,60,0,0
+Torii 20-1 -> Torii 21-1,Random Forest,False positive,-,1,tcp,,25.039954,36.0,440.0,OTH,0,3,192,6,752
+Torii 20-1 -> Torii 21-1,XGBoost,False negative,C&C-Torii,6,tcp,,,,,S0,0,1,60,0,0
+Torii 20-1 -> Torii 21-1,XGBoost,False negative,C&C-Torii,1,tcp,,1.191069,0.0,0.0,REJ,0,2,120,1,40
+Torii 20-1 -> Torii 21-1,XGBoost,False positive,-,1,tcp,,25.039954,36.0,440.0,OTH,0,3,192,6,752
+Torii 21-1 -> Torii 20-1,Logistic Regression,False positive,-,1,tcp,,,,,OTH,0,0,0,1,88
+Torii 21-1 -> Torii 20-1,Random Forest,False negative,C&C-Torii,8,tcp,,,,,S0,0,1,60,0,0
+Torii 21-1 -> Torii 20-1,XGBoost,False negative,C&C-Torii,8,tcp,,,,,S0,0,1,60,0,0
+Torii 21-1 -> Torii 20-1,XGBoost,False negative,C&C-Torii,1,tcp,,41420.482745,18320.0,18320.0,SF,1579,8295,348808,8699,366587

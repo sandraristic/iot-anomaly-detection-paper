@@ -1,0 +1,9 @@
+Scenario,Raw rows,Unique feature-label patterns,Unique malicious patterns,Role
+Benign Amazon Echo,1374,1115,0,Core
+Benign Philips Hue,452,357,0,Core
+Mirai capture,23145,4687,4000,Core
+Benign Somfy Door Lock,52,47,0,External validation
+Hakai capture,10403,2058,1741,External validation
+Muhstik capture,156103,20149,16630,External validation
+Torii capture,3209,1231,9,External validation
+Trojan capture,4426,2099,6,External validation

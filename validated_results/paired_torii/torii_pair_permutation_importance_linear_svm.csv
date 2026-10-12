@@ -1,0 +1,23 @@
+Direction,Model,Feature,Mean F1 decrease,Std
+Torii 20-1 -> Torii 21-1,Linear SVM,proto,0.8951879699248121,0.02431150038972147
+Torii 20-1 -> Torii 21-1,Linear SVM,missed_bytes,0.062105263157894795,0.0189473684210526
+Torii 20-1 -> Torii 21-1,Linear SVM,conn_state,0.052631578947368474,0.0
+Torii 20-1 -> Torii 21-1,Linear SVM,src_bytes,0.002941176470588236,0.012820291010413749
+Torii 20-1 -> Torii 21-1,Linear SVM,service,0.0,0.0
+Torii 20-1 -> Torii 21-1,Linear SVM,duration,0.0,0.0
+Torii 20-1 -> Torii 21-1,Linear SVM,dst_bytes,0.0,0.0
+Torii 20-1 -> Torii 21-1,Linear SVM,src_pkts,0.0,0.0
+Torii 20-1 -> Torii 21-1,Linear SVM,src_ip_bytes,0.0,0.0
+Torii 20-1 -> Torii 21-1,Linear SVM,dst_pkts,0.0,0.0
+Torii 20-1 -> Torii 21-1,Linear SVM,dst_ip_bytes,0.0,0.0
+Torii 21-1 -> Torii 20-1,Linear SVM,proto,0.8042857142857145,0.020751198637619924
+Torii 21-1 -> Torii 20-1,Linear SVM,src_pkts,0.09763157894736843,0.010323708024175265
+Torii 21-1 -> Torii 20-1,Linear SVM,src_ip_bytes,0.09763157894736843,0.010323708024175265
+Torii 21-1 -> Torii 20-1,Linear SVM,dst_pkts,0.09763157894736843,0.010323708024175265
+Torii 21-1 -> Torii 20-1,Linear SVM,duration,0.0760526315789474,0.02870593093620421
+Torii 21-1 -> Torii 20-1,Linear SVM,conn_state,0.052631578947368474,0.0
+Torii 21-1 -> Torii 20-1,Linear SVM,missed_bytes,0.052631578947368474,0.0
+Torii 21-1 -> Torii 20-1,Linear SVM,dst_ip_bytes,0.01289473684210527,0.027372216336037074
+Torii 21-1 -> Torii 20-1,Linear SVM,service,0.0,0.0
+Torii 21-1 -> Torii 20-1,Linear SVM,src_bytes,0.0,0.0
+Torii 21-1 -> Torii 20-1,Linear SVM,dst_bytes,0.0,0.0

@@ -1,0 +1,10 @@
+Scenario,Raw rows,Unique clean patterns,Unique benign,Unique malicious,Conflict feature groups
+Amazon Echo (benign),1374,1115,1115,0,0
+Philips Hue (benign),452,357,357,0,0
+Core malware capture,23145,4677,682,3995,5
+Muhstik,156103,20149,3519,16630,0
+Hakai,10403,2058,317,1741,0
+Torii 20-1,3209,1231,1222,9,0
+Torii 21-1,3286,955,946,9,0
+Trojan/FileDownload,4426,2099,2093,6,0
+Somfy Door Lock (benign),52,47,47,0,0

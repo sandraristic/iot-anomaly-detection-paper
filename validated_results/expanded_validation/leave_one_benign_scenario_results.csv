@@ -1,0 +1,13 @@
+Held-out benign scenario,Model,Unique benign patterns,False positives,False positive rate
+Benign Amazon Echo,Logistic Regression,1115,124,0.11121076233183856
+Benign Amazon Echo,Linear SVM,1115,106,0.09506726457399103
+Benign Amazon Echo,Random Forest,1115,23,0.02062780269058296
+Benign Amazon Echo,XGBoost,1115,104,0.09327354260089686
+Benign Philips Hue,Logistic Regression,357,2,0.0056022408963585435
+Benign Philips Hue,Linear SVM,357,0,0.0
+Benign Philips Hue,Random Forest,357,1,0.0028011204481792717
+Benign Philips Hue,XGBoost,357,28,0.0784313725490196
+Benign Somfy Door Lock,Logistic Regression,47,1,0.02127659574468085
+Benign Somfy Door Lock,Linear SVM,47,1,0.02127659574468085
+Benign Somfy Door Lock,Random Forest,47,1,0.02127659574468085
+Benign Somfy Door Lock,XGBoost,47,0,0.0

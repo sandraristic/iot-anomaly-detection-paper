@@ -1,0 +1,13 @@
+data/
+__pycache__/
+*.pyc
+../.venv-repro/
+.idea/
+.venv/
+.venv-repro/
+data/
+reproduced_outputs/
+figures_rerun/
+__pycache__/
+*.pyc
+*.zip

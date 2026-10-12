@@ -1,0 +1,3 @@
+Dataset,Rows,Unique feature vectors,Excess exact feature-label duplicates,Duplicate excess pct,Conflicting feature-vector groups,Records in conflicting groups,Mean random-split test overlap pct,Std random-split test overlap pct
+ToN-IoT,211043,92454,118574,56.18475855631317,15,7522,58.761401596815844,0.2554997005969622
+IoT-23,24971,6151,18815,75.34740298746546,5,2727,76.33633633633634,0.44519231147021143
