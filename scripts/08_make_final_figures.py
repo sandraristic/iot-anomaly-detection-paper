@@ -26,6 +26,10 @@ plt.close()
 
 # Figure 2
 summary = pd.read_csv(CORE/'five_seed_duplicate_aware_summary.csv')
+summary['Dataset'] = summary['Dataset'].replace({
+    'iot': 'IoT-23',
+    'ton': 'ToN-IoT',
+})
 model_order = ['Linear SVM','Logistic Regression','Random Forest','XGBoost']
 summary['Model'] = pd.Categorical(summary['Model'], categories=model_order, ordered=True)
 summary = summary.sort_values('Model')

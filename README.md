@@ -43,7 +43,7 @@ Create `data` in the repository root and put the following files directly inside
 | `2019-01-10-14-34-38-192.168.1.197-zeek-conn-log.txt` | Trojan/FileDownload |
 | `2019-07-03-16-41-09-192.168.1.158-zeek-conn-log.txt` | Somfy Door Lock, benign |
 
-Obtain the data from the sources cited in manuscript references [1], [2] and [7]. These filenames identify the local exports used in the study. The parsers expect those tab-separated Zeek log layouts, including their label formatting. The Somfy export has no label columns and is explicitly treated as benign. Do not substitute a different dataset version or reformat the logs without checking parsing and record counts.
+Obtain the data from the sources cited in manuscript references [1], [2] and [17]. These filenames identify the local exports used in the study. The parsers expect those tab-separated Zeek log layouts, including their label formatting. The Somfy export has no label columns and is explicitly treated as benign. Do not substitute a different dataset version or reformat the logs without checking parsing and record counts.
 
 The `data` directory is excluded from Git. Derived pickles and local rerun outputs inside it are also excluded.
 
