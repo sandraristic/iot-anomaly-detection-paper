@@ -1,9 +1,5 @@
-data/
-__pycache__/
-*.pyc
 ../.venv-repro/
 .idea/
-.venv/
 .venv-repro/
 data/
 reproduced_outputs/
